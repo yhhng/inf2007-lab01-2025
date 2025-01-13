@@ -11,7 +11,7 @@ import androidx.compose.ui.test.performTextInput
 import org.junit.Rule
 import org.junit.Test
 
-class lab01test {
+class Lab01test {
     @get:Rule
     val composeTestRule = createComposeRule()
 
@@ -23,7 +23,7 @@ class lab01test {
 
         // Verify that the TextField exists
         composeTestRule.onNodeWithTag("nameInput").assertIsDisplayed()
-
+    
         // Verify that the Submit button exists
         composeTestRule.onNodeWithTag("submitButton").assertIsDisplayed()
 
